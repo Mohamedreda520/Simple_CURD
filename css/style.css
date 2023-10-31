@@ -1,0 +1,84 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: sans-serif;
+  background-color: rgba(0, 0, 0, 0.938);
+}
+.container {
+  margin: 50px auto;
+  width: 80%;
+  padding: 20px 40px;
+}
+.content {
+  margin: 50px auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.container .input {
+  padding: 10px;
+  margin-right: 20px;
+  width: 50%;
+  font-size: 19px;
+  outline: none;
+  border-radius: 5px;
+  font-weight: bold;
+}
+.container .add {
+  background-color: crimson;
+  color: white;
+  cursor: pointer;
+  padding: 10px 25px;
+  border-radius: 5px;
+  font-size: 17px;
+  font-weight: bold;
+}
+#alldata h3{
+    text-align: center;
+    color: #fafafa;
+    font-size: 17px;
+    font-weight: 800;
+    padding: 10px 20px;
+    background-color: brown;
+    width: 50%;
+    border-radius: 7px;
+    display: block;
+    margin:0  auto 20px;
+    cursor: pointer;
+}
+.parintdiv {
+  border: 1px solid wheat;
+  padding: 10px 20px;
+  margin-bottom: 10px;
+  border-radius: 5px;
+  display: flex;
+  align-items: center;
+}
+@media (max-width: 550px) {
+  .parintdiv {
+    text-align: center;
+    flex-wrap: wrap;
+    flex-direction: row-reverse;
+    justify-content: center;
+  }
+}
+.parintdiv p {
+  width: 100%;
+  font-size: 20px;
+  font-weight: bold;
+  color: #fafafa;
+}
+.parintdiv span {
+  background-color: crimson;
+  margin: 5px 10px;
+  padding: 10px 25px;
+  color: white;
+  font-size: 17px;
+  font-weight: bold;
+  border-radius: 5px;
+  text-align: center;
+  cursor: pointer;
+}
