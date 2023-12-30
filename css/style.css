@@ -26,6 +26,12 @@ body {
   border-radius: 5px;
   font-weight: bold;
 }
+.parintdiv p {
+  width: 100%;
+  font-size: 20px;
+  font-weight: bold;
+  color: #fafafa;
+}
 .container .add {
   background-color: crimson;
   color: white;
